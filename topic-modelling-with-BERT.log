@@ -1,0 +1,17 @@
+2021-02-07 16:30:13,120 - INFO - loading 20newdgroups-all
+2021-02-07 16:30:13,546 - INFO - generating BERT embeddings
+2021-02-07 16:30:13,546 - INFO - Load pretrained SentenceTransformer: distilbert-base-nli-mean-tokens
+2021-02-07 16:30:13,547 - INFO - Did not find folder distilbert-base-nli-mean-tokens
+2021-02-07 16:30:13,547 - INFO - Try to download model from server: https://sbert.net/models/distilbert-base-nli-mean-tokens.zip
+2021-02-07 16:30:13,547 - INFO - Load SentenceTransformer from folder: C:\Users\User/.cache\torch\sentence_transformers\sbert.net_models_distilbert-base-nli-mean-tokens
+2021-02-07 16:30:17,039 - INFO - Use pytorch device: cuda
+2021-02-07 16:37:24,984 - INFO - generate BERT embeddings runtime: 0:07:11.864008
+2021-02-07 16:37:24,999 - INFO - generating UMAP embeddings
+2021-02-07 16:38:19,054 - INFO - generate UMAP embeddings: n_neighbors: 30, n_components: 5, metric: cosine, runtime: 0:08:05.933401
+2021-02-07 16:38:19,074 - INFO - generating HDBSCAN clusters
+2021-02-07 16:38:22,379 - INFO - generating HDBSCAN clusters: min_cluster_size: 15, metric: euclidean, cluster_selection_method: eom, runtime: 0:08:09.258947
+2021-02-07 16:38:22,390 - INFO - Merging documents by topic
+2021-02-07 16:38:22,427 - INFO - Merging documents by topic complete. runtime: 0:08:09.306947
+2021-02-07 16:38:22,442 - INFO - Generating TF-IDF
+2021-02-07 16:38:34,630 - INFO - Generating TF-IDF complete. runtime: 0:08:21.509647
+2021-02-07 16:38:35,360 - INFO - program runtime: 0:08:22.240031
